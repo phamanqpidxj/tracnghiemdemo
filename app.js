@@ -183,7 +183,7 @@ function renderPractice() {
     ${
       revealed
         ? `<div class="feedback ${userPick === q.answer ? "correct" : "wrong"}">
-            ${userPick === q.answer ? "✓ Chính xác." : `✗ Chưa đúng. Đáp án đúng là <strong>${q.answer}. ${escapeHTML(q.options[q.answer])}</strong>.`}
+            ${userPick === q.answer ? "✓ Chính xác." : `✗ Chưa đúng. Đáp án đúng là <strong>${displayLetter(q.order.indexOf(q.answer))}. ${escapeHTML(q.options[q.answer])}</strong>.`}
           </div>`
         : ""
     }
@@ -470,7 +470,7 @@ function renderResultHTML(opts) {
           ? `<span class="opt your">(Bạn chưa trả lời)</span>`
           : userIsCorrect
             ? ""
-            : `<div class="opt your">Bạn chọn: ${userLetter}</div>`;
+            : `<div class="opt your">Bạn chọn: ${displayLetter(q.order.indexOf(userLetter))}</div>`;
       return `
         <li class="review-item ${cls}">
           <div class="q"><span class="badge">Câu ${q.id} • Phần ${q.section}</span> ${escapeHTML(q.text)}</div>
