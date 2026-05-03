@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Trắc nghiệm Linux — Luyện thi</title>
+    <meta
+      name="description"
+      content="Web luyện trắc nghiệm môn Hệ điều hành Linux: hơn 100 câu hỏi với chế độ luyện tập và làm bài thi."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <span class="logo">⌨︎</span>
+        <div>
+          <h1>Trắc nghiệm Linux</h1>
+          <p class="tagline">Ôn tập Hệ điều hành Linux</p>
+        </div>
+      </div>
+      <nav class="nav">
+        <button data-view="home" class="nav-btn active">Trang chủ</button>
+        <button data-view="practice" class="nav-btn">Luyện tập</button>
+        <button data-view="exam" class="nav-btn">Làm bài thi</button>
+        <button data-view="bank" class="nav-btn">Ngân hàng</button>
+      </nav>
+    </header>
+
+    <main id="app">
+      <section id="view-home" class="view active">
+        <div class="hero">
+          <h2>Luyện trắc nghiệm Linux</h2>
+          <p>
+            Bộ <strong id="total-count">0</strong> câu hỏi trắc nghiệm Hệ điều
+            hành Linux, gồm phần ôn tập theo bài tập và phần ngân hàng câu hỏi
+            của T.S Đào Thế Long.
+          </p>
+          <div class="cards">
+            <button class="card" data-action="start-practice">
+              <h3>Luyện tập</h3>
+              <p>
+                Trộn ngẫu nhiên câu hỏi, biết đáp án đúng/sai ngay sau mỗi câu.
+                Phù hợp để ôn từng phần.
+              </p>
+              <span class="cta">Bắt đầu →</span>
+            </button>
+            <button class="card" data-action="start-exam">
+              <h3>Làm bài thi</h3>
+              <p>
+                Chọn số câu &amp; thời gian, nộp bài để xem điểm và xem lại từng
+                câu sai.
+              </p>
+              <span class="cta">Vào thi →</span>
+            </button>
+            <button class="card" data-action="show-bank">
+              <h3>Xem ngân hàng câu hỏi</h3>
+              <p>
+                Duyệt toàn bộ câu hỏi và đáp án, lọc theo phần và tìm kiếm nội
+                dung.
+              </p>
+              <span class="cta">Mở ngân hàng →</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section id="view-practice" class="view">
+        <div class="setup">
+          <h2>Chế độ luyện tập</h2>
+          <p>
+            Hiển thị từng câu, tự động kiểm tra đáp án và cho biết kết quả. Bạn
+            có thể chuyển câu trước/sau bất cứ lúc nào.
+          </p>
+          <form id="practice-form" class="setup-form">
+            <label>
+              Phần
+              <select name="section">
+                <option value="all">Tất cả các phần</option>
+                <option value="1">Phần 1 — Bài tập Linux (75 câu)</option>
+                <option value="2">Phần 2 — Đào Thế Long (26 câu)</option>
+              </select>
+            </label>
+            <label>
+              Số câu hỏi
+              <select name="count">
+                <option value="10">10 câu</option>
+                <option value="20" selected>20 câu</option>
+                <option value="30">30 câu</option>
+                <option value="50">50 câu</option>
+                <option value="all">Toàn bộ</option>
+              </select>
+            </label>
+            <label class="checkbox">
+              <input type="checkbox" name="shuffle-options" checked />
+              Trộn thứ tự đáp án A/B/C/D
+            </label>
+            <button type="submit" class="primary">Bắt đầu luyện tập</button>
+          </form>
+        </div>
+        <div id="practice-runner" class="runner hidden"></div>
+      </section>
+
+      <section id="view-exam" class="view">
+        <div class="setup">
+          <h2>Chế độ làm bài thi</h2>
+          <p>
+            Trả lời toàn bộ câu hỏi rồi bấm <em>Nộp bài</em>. Có đếm thời gian,
+            kết thúc giờ sẽ tự nộp bài.
+          </p>
+          <form id="exam-form" class="setup-form">
+            <label>
+              Phần
+              <select name="section">
+                <option value="all" selected>Tất cả các phần</option>
+                <option value="1">Phần 1 — Bài tập Linux</option>
+                <option value="2">Phần 2 — Đào Thế Long</option>
+              </select>
+            </label>
+            <label>
+              Số câu
+              <select name="count">
+                <option value="20">20 câu</option>
+                <option value="30" selected>30 câu</option>
+                <option value="50">50 câu</option>
+                <option value="all">Toàn bộ</option>
+              </select>
+            </label>
+            <label>
+              Thời gian (phút)
+              <select name="duration">
+                <option value="10">10 phút</option>
+                <option value="20" selected>20 phút</option>
+                <option value="30">30 phút</option>
+                <option value="60">60 phút</option>
+                <option value="0">Không giới hạn</option>
+              </select>
+            </label>
+            <label class="checkbox">
+              <input type="checkbox" name="shuffle-options" checked />
+              Trộn thứ tự đáp án A/B/C/D
+            </label>
+            <button type="submit" class="primary">Bắt đầu thi</button>
+          </form>
+        </div>
+        <div id="exam-runner" class="runner hidden"></div>
+      </section>
+
+      <section id="view-bank" class="view">
+        <div class="bank-header">
+          <h2>Ngân hàng câu hỏi</h2>
+          <div class="bank-controls">
+            <input
+              type="search"
+              id="bank-search"
+              placeholder="Tìm trong câu hỏi và đáp án..."
+            />
+            <select id="bank-filter">
+              <option value="all">Tất cả các phần</option>
+              <option value="1">Phần 1</option>
+              <option value="2">Phần 2</option>
+            </select>
+            <label class="checkbox inline">
+              <input type="checkbox" id="bank-show-answers" checked />
+              Hiện đáp án
+            </label>
+          </div>
+        </div>
+        <ol id="bank-list" class="bank-list"></ol>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>© Luyện trắc nghiệm Linux • Dữ liệu trích từ tài liệu ôn tập của bạn</span>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
