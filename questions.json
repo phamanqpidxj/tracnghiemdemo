@@ -1,0 +1,1212 @@
+[
+  {
+    "id": 1,
+    "text": "Với các phiên bản của hệ điều hành mã nguồn linux bạn hãy chỉ ra những khuyết điểm của các phiên bản đều gặp phải",
+    "options": {
+      "A": "Không có tổ chức nào chịu trách nhiệm về kỹ thuật và phát triển linux",
+      "B": "User không quen sử dụng Linux",
+      "C": "Khả năng tương thích với phần cứng mới còn hạn chế",
+      "D": "Mã nguồn mở nên ai cũng có thể phát triển thêm"
+    },
+    "answer": "A",
+    "section": 1
+  },
+  {
+    "id": 2,
+    "text": "hãy chọn phát biểu đúng trong các phát biểu dưới đây về hệ điều hành Linux",
+    "options": {
+      "A": "Linux là hệ điều hành đa nhiệm",
+      "B": "Linux là hệ điều hành đơn nhiệm",
+      "C": "Linux chỉ thích hợp làm hệ điều hành nhúng",
+      "D": "Linux không thích hợp cho người dùng cuối(end users)"
+    },
+    "answer": "A",
+    "section": 1
+  },
+  {
+    "id": 3,
+    "text": "Linux cung cấp một số chương trình xử lý văn bản. chương trình xử lý văn bản nào sau đây Linux không hỗ trợ",
+    "options": {
+      "A": "Vi",
+      "B": "Nroff",
+      "C": "Emacs",
+      "D": "Notepad"
+    },
+    "answer": "D",
+    "section": 1
+  },
+  {
+    "id": 4,
+    "text": "Giả sử bạn đang mở cửa sổ Shell lệnh gì sau đây dùng để xem ngày giờ hiện tạicủa hệ thống?",
+    "options": {
+      "A": "Info",
+      "B": "Time",
+      "C": "Datetime",
+      "D": "date"
+    },
+    "answer": "D",
+    "section": 1
+  },
+  {
+    "id": 5,
+    "text": "khi mở cửa sổ lệnh (command-line) ,ta thấy dấu nhắc lệnh xuất hiện và chờ user nhập lệnh thực thi. toàn bộ dấu nhắc lệnh trong command-line có bao nhiêu thành phần?",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "answer": "C",
+    "section": 1
+  },
+  {
+    "id": 6,
+    "text": "Bạn đang remote access từ một máy tính Window vào sever Linux để làm việcBạn muốn thoát khỏi phiên làm việc,lệnh nào sau đây cần bạn thực hiện ?",
+    "options": {
+      "A": "Exit",
+      "B": "Quit",
+      "C": "Break",
+      "D": "logout"
+    },
+    "answer": "A",
+    "section": 1
+  },
+  {
+    "id": 7,
+    "text": "Trong Linux, cửa sổ command-line dùng để thưc thi các lệnh của users. Cú pháp đầy đủ của một lệnh bao gồm bao nhiêu thành phần?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "C",
+    "section": 1
+  },
+  {
+    "id": 8,
+    "text": "Khi gõ lệnh liệt kê các tập tin và thư mục trong cửa sổ shell của Linux, ta có thể sử dụng các ký tự đại diện. Ký tự nào sau đây đại diện chỉ cho một ký tự",
+    "options": {
+      "A": "*",
+      "B": "?",
+      "C": "~",
+      "D": "!"
+    },
+    "answer": "B",
+    "section": 1
+  },
+  {
+    "id": 9,
+    "text": "Nhẩn viên tamlv là một quản trị mạng của cty. TK tamlv là tài khoản thường giống như các nhẩn viên khác trong công ty. Nhẩn viên tamlv remote vào Linux server với tài khoản tamlv để cấu hình hệ thống. Để hoàn thành công việc, user tamlv cần làm gì sau đây?",
+    "options": {
+      "A": "Sử dụng tài khoản tamlv để cấu hình hệ thống",
+      "B": "Chuyển qua tài khoản root để cấu hình hệ thống",
+      "C": "Kết hợp cả 2 tài khoản cùng lúc để dễ làm việc",
+      "D": "Khi remote vào server với tài khoản nào thì dùng chính tài khoản đó cấu hình"
+    },
+    "answer": "B",
+    "section": 1
+  },
+  {
+    "id": 10,
+    "text": "Bạn đang sử dụng ứng dụng vi để soạn thảo văn bản. Bạn muốn thoát khỏi vi và không muốn lưu nội dung đã soạn thảo vào file. Nhóm lệnh nào bạn cần thực hiện:",
+    "options": {
+      "A": "Nhấn phím I và gõ lệnh :q để thoát",
+      "B": "Nhấn phím ESC và gõ lệnh: wq để thoát",
+      "C": "Gõ lệnh :q để thoát",
+      "D": "Nhấn phím ESC và gõ lệnh :q để thoát"
+    },
+    "answer": "D",
+    "section": 1
+  },
+  {
+    "id": 11,
+    "text": "Giả sử bạn đang dùng lệnh vi để soạn thảo văn bản. Sau khi soạn thảo xong, bạn muốn lưu file với tên file vanban.txt. Cú pháp nào bạn cần sử dụng?",
+    "options": {
+      "A": "Nhấn phím I gõ lệnh :wq để lưu",
+      "B": "Nhấn phím ESC và gõ lệnh :wq để lưu",
+      "C": "Nhấn phím ESC và gõ lệnh :wq vanban.txt để lưu",
+      "D": "Nhấn phím I và gõ lệnh :wq vanban.txt để lưu"
+    },
+    "answer": "C",
+    "section": 1
+  },
+  {
+    "id": 12,
+    "text": "Bạn đang sử dụng cửa sổ Shell và dùng lệnh vi để soạn thảo văn bản. Trong khi đang soạn thảo, bạn muốn thực hiện vài lệnh cần thiết. Giải pháp nào sau đây là thuận tiện nhất?",
+    "options": {
+      "A": "Lưu và đóng file tạm thời, trở lại cửa sổ Shell và thực hiện lệnh, sau đó mở lại file để tiếp tục soạn thảo",
+      "B": "Mở cửa sổ Shell khác để thực hiện lệnh",
+      "C": "Trong khi soạn thảo văn bản vẫn có thể thực hiện lệnh dễ dàng",
+      "D": "Phải kết thúc việc soạn thảo văn bản mới có thể thực hiện lệnh"
+    },
+    "answer": "B",
+    "section": 1
+  },
+  {
+    "id": 13,
+    "text": "Người quản trị mạng thường dùng máy tính cá nhẩn kết nối vào máy chủ Linux để làm việc, cấu hình. Có nhiều công cụ cho phép kết nối từ xa. Công cụ nào sau đây đáp ứng nhu cầu trên?",
+    "options": {
+      "A": "Putty",
+      "B": "Remote",
+      "C": "Yum",
+      "D": "Tftp"
+    },
+    "answer": "A",
+    "section": 1
+  },
+  {
+    "id": 14,
+    "text": "Hệ điều hành Linux có nhiều thành phần. Phần cốt lỗi của hệ điều hành Linux gọi là gì?",
+    "options": {
+      "A": "OS",
+      "B": "Core OS",
+      "C": "Kernel",
+      "D": "Modules"
+    },
+    "answer": "C",
+    "section": 1
+  },
+  {
+    "id": 15,
+    "text": "Khi bạn sử dụng Linux ở chế độ Command-line, câu nào sau đây không phải là tên của ứng dụng commad-line bạn sử dụng?",
+    "options": {
+      "A": "Terminal",
+      "B": "Console",
+      "C": "Shell",
+      "D": "Text"
+    },
+    "answer": "D",
+    "section": 1
+  },
+  {
+    "id": 16,
+    "text": "Hãy chọn phát biểu sai về dấu nhắc lệnh của Linux trong số các câu sau đây?",
+    "options": {
+      "A": "Dấu nhắc lệnh mặc định cho normal users la $",
+      "B": "Dấu nhắc lệnh mặc định là %",
+      "C": "Dấu nhắc lệnh mặc định cho root users là #",
+      "D": "Có thể thay đổi dấu nhắc lệnh theo ý của user"
+    },
+    "answer": "B",
+    "section": 1
+  },
+  {
+    "id": 18,
+    "text": "Khi cài Linux với giao diện GUI, có một số loại GUI để lựa chọn. Câu nào sau đây có các loại GUI bạn có thể chọn?",
+    "options": {
+      "A": "GNOME và IDE",
+      "B": "KDE và IDE",
+      "C": "Desktop và GUI",
+      "D": "GNOME và KDE"
+    },
+    "answer": "D",
+    "section": 1
+  },
+  {
+    "id": 20,
+    "text": "Một phẩn vùng của đĩa cứng đuợc mount đến 1 thư mục là /data. Ta cần xóa bỏ việc mount này. Lệnh nào sau đây thích hợp?",
+    "options": {
+      "A": "Unmount",
+      "B": "Mount off",
+      "C": "Umount",
+      "D": "Disconnect"
+    },
+    "answer": "C",
+    "section": 1
+  },
+  {
+    "id": 21,
+    "text": "Bạn muốn biết PID của tiến trình hiện hành của cửa sổ Shell đang mở, bạn cần thực hiện lệnh gì?",
+    "options": {
+      "A": "echo $$",
+      "B": "echo PID",
+      "C": "echo $",
+      "D": "echo PPID"
+    },
+    "answer": "A",
+    "section": 1
+  },
+  {
+    "id": 22,
+    "text": "Giả sử bạn là một quản trị mạng hệ thống Linux, bạn muốn tạo nhiều group để phục vụ công việc quản lý hệ thống. Cú pháp lệnh tạo group bạn cần thực thi là gì?",
+    "options": {
+      "A": "#groupadd [groupnames]",
+      "B": "#group -add [groupnames]",
+      "C": "#group -U [groupnames]",
+      "D": "#group -G [groupnames]"
+    },
+    "answer": "A",
+    "section": 1
+  },
+  {
+    "id": 23,
+    "text": "Khi cài Linux với giao diện GUI, trước tiến bạn cần biết Linux có 2 loại GUI nào chọn lựa cho phù hợp?",
+    "options": {
+      "A": "KDE và IDE",
+      "B": "GNOME và IDE",
+      "C": "GNOME và KDE",
+      "D": "Desktop và GUI"
+    },
+    "answer": "C",
+    "section": 1
+  },
+  {
+    "id": 24,
+    "text": "Ngay sau khi việc cài Linux hoàn tất, restart và logon vào Linux lần đầu tiên, bạn mở Shell và sử dụng lệnh gì để xem username hiện đang logon?",
+    "options": {
+      "A": "Whoami",
+      "B": "Username",
+      "C": "Hostname",
+      "D": "ID"
+    },
+    "answer": "A",
+    "section": 1
+  },
+  {
+    "id": 25,
+    "text": "Trong cửa sổ Shell của Linux, khi liệt kê các tập tin và thư mục con trong một thư mục, ta có thể nhìn thấy tập tin ẩn và tập tin bình thường. Tập tin ẩn khác tập tin không ẩn ở điểm nào?",
+    "options": {
+      "A": "Màu sắc bị mở",
+      "B": "Có dấu chấm ‘.’ trước tập tin",
+      "C": "Có dấu ‘$’ trước tập tin",
+      "D": "Không thể thấy tập tin ẩn"
+    },
+    "answer": "B",
+    "section": 1
+  },
+  {
+    "id": 26,
+    "text": "Trong cửa sổ Shell Linux, khi liệt kê các tập tin và thư mục con trong một thư mục, ta có thể nhìn thấy tên thư mục con và tên tập tin. Dấu hiệu nào dùng để nhận biết tên nào là thư mục?",
+    "options": {
+      "A": "Dấu chấm ‘.’ đầu dòng",
+      "B": "Ký tự ‘d’ đầu dòng",
+      "C": "Tên thư mục có màu xanh",
+      "D": "Có từ ‘directory’ trên dòng chứa tên thư mục"
+    },
+    "answer": "B",
+    "section": 1
+  },
+  {
+    "id": 27,
+    "text": "Bạn sử dụng tài khoản root để login vào máy tính. Bạn tạo một tập tin trong một thư mục. Giả sử trước đó bạn không thay đổi quyền mặc định của file và folder. Như vậy quyền mặc định của tập tin đó là gì?",
+    "options": {
+      "A": "Rw-r--r--",
+      "B": "Rw-rw-r--",
+      "C": "Rw-rw-rw",
+      "D": "Rwxr--r--"
+    },
+    "answer": "A",
+    "section": 1
+  },
+  {
+    "id": 28,
+    "text": "Hệ điều hành Linux có một giá trị đặc biệc là umask. Bạn cho biết giá trị umask này có ý nghĩa gì trong hệ thống?",
+    "options": {
+      "A": "Xác định quyên file, thư mục",
+      "B": "Cấp quyền cho file, thư mục",
+      "C": "Xác định quyền mặc định của file, thư mục",
+      "D": "Thay đổi quyền của file, thư mục"
+    },
+    "answer": "C",
+    "section": 1
+  },
+  {
+    "id": 29,
+    "text": "Sau khi cài và sử dụng Linux một thời gian, bạn muốn thay đổi địa chỉ IP lâu dài của Network-card trong máy tính. Bạn cần thay đổi nội dung trong tập tin nào.",
+    "options": {
+      "A": "Phụ thuộc vào từng máy tính",
+      "B": "Ifefg-th0",
+      "C": "Ifefg-ens33",
+      "D": "Ifefg-lo0"
+    },
+    "answer": "A",
+    "section": 1
+  },
+  {
+    "id": 30,
+    "text": "Khi thực hiện thao tác liên quan đến đĩa cứng thêm, xóa phẩn vùng,... Bạn thấy xuất hiện các ký hiệu của ổ đĩa như: sda, sdb, hda, hdb,... Bạn biết sda, sdb là ký hiệu của loại đĩa cứng nào?",
+    "options": {
+      "A": "IDE",
+      "B": "CDROM",
+      "C": "SCSI",
+      "D": "NTFS"
+    },
+    "answer": "C",
+    "section": 1
+  },
+  {
+    "id": 31,
+    "text": "Mỗi tiến trình trong Linux có một giá trị gọi là PID. Giá trị PID này là một sốnguyên và được đánh số bắt đầu từ bao nhiêu? ==> không được bắt đầu từ 0, PID thường bắt đầu từ 1 hoặc 2",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "10",
+      "D": "1000"
+    },
+    "answer": "B",
+    "section": 1
+  },
+  {
+    "id": 32,
+    "text": "Bạn mới thêm vào máy Linux một đĩa cứng SCSI thứ 3. Đĩa cứng này chưa được sử dụng. Bạn muốn partition nó. Bạn dùng lệnh nào sau đây ?",
+    "options": {
+      "A": "Fdisk /dev/sdc1",
+      "B": "Fdisk /dev/sdc",
+      "C": "Fdisk /dev/sda",
+      "D": "Fdisk /dev/sdb"
+    },
+    "answer": "B",
+    "section": 1
+  },
+  {
+    "id": 33,
+    "text": "Linux có giao diện đa cửa sổ, Có phần dành cho server, có phần dành cho clients. Phần dành cho server có tên gọi là gì?",
+    "options": {
+      "A": "Server GUI",
+      "B": "Multiple windows",
+      "C": "Multiple users",
+      "D": "X server"
+    },
+    "answer": "D",
+    "section": 1
+  },
+  {
+    "id": 34,
+    "text": "Hệ thống giao diện của Linux có thể dùng cho server, có thể dùng cho clients. Phần dùng cho Clients gọi là gì?",
+    "options": {
+      "A": "Desktop",
+      "B": "X window manager",
+      "C": "Client windows",
+      "D": "GUI"
+    },
+    "answer": "B",
+    "section": 1
+  },
+  {
+    "id": 35,
+    "text": "Thành phần hoặc chức năng nào sau đây không dành cho nhẩn (kernel) của hệ điều hành Linux?",
+    "options": {
+      "A": "Lưu trữ dữ liệu",
+      "B": "Quản lý tất cả hoạt động của hệ điều hành",
+      "C": "Bao gổm nhiều module",
+      "D": "Tương tác với phần cứng"
+    },
+    "answer": "A",
+    "section": 1
+  },
+  {
+    "id": 36,
+    "text": "Khi sử dụng cửa sổ Shell trong Linux. Để biết tên Shell đang sử dụng, bạn sử dung lệnh gì?",
+    "options": {
+      "A": "Sysnfo",
+      "B": "Shel -S",
+      "C": "Info -name",
+      "D": "Echo $0"
+    },
+    "answer": "D",
+    "section": 1
+  },
+  {
+    "id": 37,
+    "text": "Khi user account của nhẩn viên thường được tạo, mặc định có một thư mục user account cũng được tạo. Khi đó, mặc định user root có quyền gì trên thư mục đó?",
+    "options": {
+      "A": "Không có quyền ==> vì là /home",
+      "B": "Có quyền read",
+      "C": "Có quyền xem nội dung trong thư mục",
+      "D": "Có toàn quyền"
+    },
+    "answer": "A",
+    "section": 1
+  },
+  {
+    "id": 38,
+    "text": "Trong các lệnh chuyển thư mục sau đây, câu lệnh nào sử dụng đường dẫn tuyệt đối?",
+    "options": {
+      "A": "#cd ../ ../baitap",
+      "B": "#cd docs",
+      "C": "#cd ../data",
+      "D": "#cd /data/test"
+    },
+    "answer": "D",
+    "section": 1
+  },
+  {
+    "id": 39,
+    "text": "Trong Linux cho phép ta xem quyền users trên tập tin và thư mục. Linux sử dụng bao nhiêu bits cho việc phẩn quyền (tập tin và thư mục)?",
+    "options": {
+      "A": "8 bits",
+      "B": "9 bits",
+      "C": "10 bits",
+      "D": "3 bits"
+    },
+    "answer": "D",
+    "section": 1
+  },
+  {
+    "id": 40,
+    "text": "Trong Linux, để cấp quyền cho users và group trên một tập tin, bạn sử dụng lệnh gì trong số các lệnh sau đây?",
+    "options": {
+      "A": "#chmod",
+      "B": "#grand",
+      "C": "#permission",
+      "D": "#lets"
+    },
+    "answer": "A",
+    "section": 1
+  },
+  {
+    "id": 41,
+    "text": "Linux quản lý các partitions của các đĩa cứng dưới dạng các tập tin và chúng được lưu trong một thư mục. Bạn hãy cho biết đó là thư mục gì?",
+    "options": {
+      "A": "/etc",
+      "B": "/dev",
+      "C": "/root",
+      "D": "/hdd"
+    },
+    "answer": "B",
+    "section": 1
+  },
+  {
+    "id": 42,
+    "text": "Phát biểu nào sau đây đúng khi giải thích về process (tiến trình) ?",
+    "options": {
+      "A": "Process là tiến trình được load vào bộ nhớ để thực thi",
+      "B": "Process là chương trình đã cài vào máy tính",
+      "C": "Process là chương trình đang nắm trên đĩa cứng",
+      "D": "Process các chương trình thực thi từ máy tính start cho đến shutdown"
+    },
+    "answer": "A",
+    "section": 1
+  },
+  {
+    "id": 43,
+    "text": "Có nhiều loại tiến trình trong hệ thống. Trong đó có loại tiến trình gọi là zombie. Bạn cho biết tiến trình zombie là loại tiến trình gì?",
+    "options": {
+      "A": "Là loại tiến trình đã kết thúc hay đã bị killed nhưng vẫn còn nhìn thấy trong hệ thống",
+      "B": "Là loại tiến trình tự động phát sinh",
+      "C": "Là loại tiến trình tự động kết thúc",
+      "D": "Là loại tiến trình không có PID"
+    },
+    "answer": "A",
+    "section": 1
+  },
+  {
+    "id": 44,
+    "text": "Mỗi tiến trình đều có một định danh để phẩn biệt tiến trình này với tiến trình khác. Hãy chọn câu đúng về giá trị định danh này?",
+    "options": {
+      "A": "Là số nguyền lớn hơn 0 và duy nhất",
+      "B": "Là số nguyên bất kỳ nhưng duy nhất",
+      "C": "Là số nguyên có giá trị từ 1 đến 108",
+      "D": "Là số nguyên có giá trị từ 1 đến 1000"
+    },
+    "answer": "A",
+    "section": 1
+  },
+  {
+    "id": 45,
+    "text": "Trong hệ thống có rất nhiều tiến trình. Để xem thống tin của các tiến trình trong hệ thống, bạn thực thi lệnh gì sau đây?",
+    "options": {
+      "A": "#ps -aux",
+      "B": "#list -all ps",
+      "C": "#ps PID",
+      "D": "#show -e PID"
+    },
+    "answer": "A",
+    "section": 1
+  },
+  {
+    "id": 47,
+    "text": "Giả sử user account ptom không có password. Bạn muốn tạo password cho user ptom này. Bạn cần thực hiện lệnh gì?",
+    "options": {
+      "A": "Passwd ptom",
+      "B": "Passwrd ptom",
+      "C": "Passwd -pass ptom",
+      "D": "Chage -pass ptom"
+    },
+    "answer": "A",
+    "section": 1
+  },
+  {
+    "id": 48,
+    "text": "Trong tập tin /etc/group chứa thống tin về các groups trong hệ thống. Mỗi dòng là thống tin của một group. Mỗi dòng thống tin có bao nhiêu phần (cách nhau bởi dấu :)?",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "7"
+    },
+    "answer": "C",
+    "section": 1
+  },
+  {
+    "id": 49,
+    "text": "Giả sử bạn là quản trị hệ thống Linux. Bạn biết lệnh yum có một tập tin tương ứng mà có thể điều chỉnh? Tập tin tương ứng với lệnh yum này có tên là gì và nằm trong thư mục nào?",
+    "options": {
+      "A": "/etc/yum",
+      "B": "/etc/yum.conf",
+      "C": "/yum.conf",
+      "D": "/sys/yum.conf"
+    },
+    "answer": "B",
+    "section": 1
+  },
+  {
+    "id": 50,
+    "text": "Lệnh liệt kê ls với tùy chọn thích hợp có thể cho ta thấy tập tin ẩn. Trong các lệnh liệt kê sau đây, lệnh nào hiển thị tập tin ẩn?",
+    "options": {
+      "A": "# ls -l [thư-mục]",
+      "B": "# ls -la [thư-mục]",
+      "C": "# ls -ld [thư-mục]",
+      "D": "# ls [thư mục]"
+    },
+    "answer": "B",
+    "section": 1
+  },
+  {
+    "id": 51,
+    "text": "có 2 loại đường dẫn tuyệt đối và đường dẫn tương đối .bạn muốn biết đường dẫn tuyệt đối tương đối của một thư mục bạn cần thực hiện lệnh nào sau đây?",
+    "options": {
+      "A": "Pwd",
+      "B": "Path",
+      "C": "Pwd [thu-muc]",
+      "D": "Syspath [thu-muc]"
+    },
+    "answer": "A",
+    "section": 1
+  },
+  {
+    "id": 52,
+    "text": "Đường dẫn tuyệt đối là loại đường dẫn đến thư mục hoặc tập tin. Các câu dưới đây câu nào đúng về đường dẫn tuyệt đối?",
+    "options": {
+      "A": "đường dẫn tuyệt đối bắt đầu từ thư mục làm việc",
+      "B": "Đường dẫn tuyệt đối bắt đầu từ ổ đĩa",
+      "C": "Đường dẫn tuyệt đối bắt đầu từ thư mục gốc (/)",
+      "D": "đường dẫn tuyệt đối bắt đầu từ /Home"
+    },
+    "answer": "C",
+    "section": 1
+  },
+  {
+    "id": 53,
+    "text": "Giả sử user david đã có password nhưng password này rất dễ bị đoán ra bạn muốn thay đổi password của david bạn cần thực hiện lệnh nào",
+    "options": {
+      "A": "#change passwd david",
+      "B": "#sudo passwd david",
+      "C": "#sudo passwword david",
+      "D": "#sudo david"
+    },
+    "answer": "B",
+    "section": 1
+  },
+  {
+    "id": 54,
+    "text": "trong linux có thể sử sụng các giá trị số thay cho các kí tự r,w,x khi phẩn quyền. những dãy số nào dùng để cấp quyền?",
+    "options": {
+      "A": "0,1,2,3,4,5,6,7",
+      "B": "1,2,4,8,16,32",
+      "C": "1,2,4",
+      "D": "0,1,2,4"
+    },
+    "answer": "A",
+    "section": 1
+  },
+  {
+    "id": 55,
+    "text": "bạn được giao quản lý một máy chủ linux bạn muốn kiểm tra thống tin về các ổ đĩa cứng trong máy. bạn thực hiện lệnh nào sau đây?",
+    "options": {
+      "A": "#fdisk-l",
+      "B": "#fdisk",
+      "C": "#show HDD",
+      "D": "#HDD -info"
+    },
+    "answer": "A",
+    "section": 1
+  },
+  {
+    "id": 56,
+    "text": "trong linux tập tin /etc/passwd chứa thống tin về user account. mỗi dòng là mỗi user thống tin của user trên mỗi dòng có bao nhiêu phần (được phẩn cách bởi dấu:)",
+    "options": {
+      "A": "5",
+      "B": "6",
+      "C": "7",
+      "D": "8"
+    },
+    "answer": "C",
+    "section": 1
+  },
+  {
+    "id": 57,
+    "text": "linux có nhiều phiên bản và các gói phần mềm dùng cho mỗi phiên bản với phiên bản RedHat ,CentOS ,Fedora , gói phần mềm nào thích hợp cho RedHat?",
+    "options": {
+      "A": "rpm",
+      "B": "deb",
+      "C": "tar",
+      "D": "gz"
+    },
+    "answer": "A",
+    "section": 1
+  },
+  {
+    "id": 58,
+    "text": "linux có nhiều phiên bản và các gói phần mềm dùng cho mỗi phiên bản với phiên bản RedHat ,CentOS ,Fedora , gói phần mềm nào thích hợp cho Debian?",
+    "options": {
+      "A": "rpm",
+      "B": "deb",
+      "C": "tar",
+      "D": "gz"
+    },
+    "answer": "B",
+    "section": 1
+  },
+  {
+    "id": 59,
+    "text": "để cài đặt gói phần mềm nằm trên Internet (online) bạn thường sử dụng lệnh gì. hãy chọn câu phù hợp nhất?",
+    "options": {
+      "A": "rpm",
+      "B": "yum",
+      "C": "deb",
+      "D": "get"
+    },
+    "answer": "B",
+    "section": 1
+  },
+  {
+    "id": 60,
+    "text": "Giả sử bận là quản trị hệ thống linux một nhẩn viên có user account là abc bị quên password và không thể logon vào hệ thống bạn cần reset lại pass của user này bạn cần sử dụng lệnh gì ?",
+    "options": {
+      "A": "#reset abc",
+      "B": "#reset -pass abc",
+      "C": "#passwd -reset abc",
+      "D": "#passwd abc"
+    },
+    "answer": "D",
+    "section": 1
+  },
+  {
+    "id": 61,
+    "text": "bạn vừa gắn thêm một ổ đĩa cứng IDE thứ 2 vào máy Linux. Tiến hành phẩn vùng đĩa cứng này bạn cần sử dụng lệnh nào sau đây?",
+    "options": {
+      "A": "fdisk /dec/hdb",
+      "B": "fdisk /dev/hdb1",
+      "C": "fdisk /dev/sdb",
+      "D": "fdisk /dev/sdb1"
+    },
+    "answer": "A",
+    "section": 1
+  },
+  {
+    "id": 62,
+    "text": "bạn vừa mount một partition với một thư mục .bạn muốn việc mount này có hiệu quả ngay sau khi khởi động lại máy .bạn cần làm gì?",
+    "options": {
+      "A": "khởi động lại máy",
+      "B": "Sửa trong file /etc/fstab rồi mới khởi động máy",
+      "C": "sau khi mount làm tiếp lệnh #service filesystem restart",
+      "D": "đợi một thời gian thì hệ thống sẽ có hiệu lực"
+    },
+    "answer": "B",
+    "section": 1
+  },
+  {
+    "id": 63,
+    "text": "để thêm một users vào groups bằng cách sửa trực tiếp trong file cấu hình bạn cần mở file nào để tiến hành sửa đổi",
+    "options": {
+      "A": "/etc/groups",
+      "B": "/home/group",
+      "C": "/etc/group",
+      "D": "/etc/groups/group"
+    },
+    "answer": "C",
+    "section": 1
+  },
+  {
+    "id": 66,
+    "text": "hãy cho biết giá trị umask mặc định của user root là bao nhiêu",
+    "options": {
+      "A": "022",
+      "B": "002",
+      "C": "644",
+      "D": "755"
+    },
+    "answer": "A",
+    "section": 1
+  },
+  {
+    "id": 67,
+    "text": "muốn thay đổi nội dung trong file /etc/fstab bạn mở file và thấy có thống tin về UUID. muốn biết UUID của các partitions bạn cần sử dụng lệnh gì?",
+    "options": {
+      "A": "ls -partition",
+      "B": "find UUID",
+      "C": "cat",
+      "D": "blkid"
+    },
+    "answer": "D",
+    "section": 1
+  },
+  {
+    "id": 68,
+    "text": "tập tin chứa password của users có nhiều cột thống tin. cột thứ mấy chứa password của users? ( câu này kh có đáp án tui chọn theo tui nhớ mng check lại giúp tui nha )",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "4"
+    },
+    "answer": "C",
+    "section": 1
+  },
+  {
+    "id": 69,
+    "text": "bạn muốn xem thống tin về password của các groups bạn phải mở tập tin nào",
+    "options": {
+      "A": "/etc/shadow",
+      "B": "/etc/gshadow",
+      "C": "/etc/groups",
+      "D": "/etc/group"
+    },
+    "answer": "B",
+    "section": 1
+  },
+  {
+    "id": 70,
+    "text": "bạn muỗn xem kích thươc của thư mục /data/test lệnh nào sau đây bạn cần thực hiện ?",
+    "options": {
+      "A": "#du /data/test",
+      "B": "#show /data/test",
+      "C": "#du -sh /data/test",
+      "D": "#show -sh /data/test"
+    },
+    "answer": "C",
+    "section": 1
+  },
+  {
+    "id": 71,
+    "text": "trong các lệnh liệt kê dưới đây lệnh nào hiển thị UID của tập tin và thư mục con?",
+    "options": {
+      "A": "#ls [thư-mục]",
+      "B": "#ls -la [thư-mục]",
+      "C": "#ls -n [thư-mục]",
+      "D": "ls -UID[thư-mục]"
+    },
+    "answer": "C",
+    "section": 1
+  },
+  {
+    "id": 72,
+    "text": "bạn cần giải nén 2 tập tin trong thư mục hiện hành là a.txt và b.txt vào tập tin nén ab.taz; Lệnh nào để thực hiện?",
+    "options": {
+      "A": "#tar -cf ab.taz a.txt b.txt",
+      "B": "#tar ab.tar a.txt b.txt",
+      "C": "#tar -cf a.txt b.txt ab.tar",
+      "D": "#tar -cf ab.tar a.txt b.txt"
+    },
+    "answer": "A",
+    "section": 1
+  },
+  {
+    "id": 73,
+    "text": "bạn muốn giải nén tạp tin ab.taz vào thư mục hiện hành bạn cần sử dụng lệnh nào sau đây?",
+    "options": {
+      "A": "#tar ab.tar",
+      "B": "#tar -xf ab.taz",
+      "C": "#tar -xf ab.taz a.txt b.txt",
+      "D": "#tar -xf a.txt b.txt"
+    },
+    "answer": "B",
+    "section": 1
+  },
+  {
+    "id": 74,
+    "text": "lệnh nào xem thống tin về bộ nhớ máy tính (RAM) trong linux",
+    "options": {
+      "A": "#show /RAM",
+      "B": "# cat /memory",
+      "C": "#cat /meminfo",
+      "D": "#cat /proc/meminfo"
+    },
+    "answer": "D",
+    "section": 1
+  },
+  {
+    "id": 75,
+    "text": "bạn biết quyền trên tập tin abc.txt là dãy số 753 điều này tương ứng với dãy quyền nào trên abc.txt?",
+    "options": {
+      "A": "rwxr-x-wx",
+      "B": "-wxr-x-wx",
+      "C": "rwxrw-wx",
+      "D": "wxrwxrw-"
+    },
+    "answer": "A",
+    "section": 1
+  },
+  {
+    "id": 76,
+    "text": "bạn cấp quyền truy cập trên tập tin abc.txt .bạn muốn cho phép user owner có hoàn toàn quyền ,group chỉ có quyền write và các users khác chỉ có quyền thực thi. giả sử bạn chỉ được sử dụng các chữ số thay vì các ký tự lệnh nào sau đây đúng?",
+    "options": {
+      "A": "#chmod 721 abc.txt",
+      "B": "#chmod 246 abc.txt",
+      "C": "#chmod 127 abc.txt",
+      "D": "#chmod 642 abc.txt"
+    },
+    "answer": "A",
+    "section": 1
+  },
+  {
+    "id": 77,
+    "text": "bạn đã tạo tập tin script tên là btc.sh để thực thi tập tin này bạn cần sử dụng lệnh gì ?",
+    "options": {
+      "A": "#chmod +x btc.sh #./btc.sh",
+      "B": "# ./btc.sh",
+      "C": "#chmod btc.sh # ./btc.sh",
+      "D": "#chmod +x btc.sh"
+    },
+    "answer": "A",
+    "section": 1
+  },
+  {
+    "id": 78,
+    "text": "bạn là quản trị hệ thống nhẩn viên abc đã rời khỏi công ty bạn cần xóa tài khoản abc và cả group abc ra khỏi hệ thống bạn cần thực thi lệnh gì",
+    "options": {
+      "A": "#userdel abc",
+      "B": "#userdel -r abc",
+      "C": "#remove -user abc",
+      "D": "#remove abc"
+    },
+    "answer": "B",
+    "section": 1
+  },
+  {
+    "id": 79,
+    "text": "phát biểu nào sau đây đúng về user accounts trong Linux?",
+    "options": {
+      "A": "user account phải có password mới logon vào máy được",
+      "B": "User account có thể logon vào máy mà không cần password",
+      "C": "User account không có password vẫn có thể logon vào máy tính lần đầu tiến sau đó hệ thống buộc phải thay đổi mật khẩu cho lần logon kế tiếp",
+      "D": "Nếu user account không có password hệ thống sẽ tự động tạo password cho user và password này trùng với username"
+    },
+    "answer": "A",
+    "section": 1
+  },
+  {
+    "id": 80,
+    "text": "bạn muốn xem các tiến trình của một user nào đó bạn cần thực hiện lệnh gì?",
+    "options": {
+      "A": "#ps [username]",
+      "B": "#ps- PID [username]",
+      "C": "#ps -u [username]",
+      "D": "#ps- all [username]"
+    },
+    "answer": "C",
+    "section": 1
+  },
+  {
+    "id": 101,
+    "text": "Phần quan trọng nhất của hệ điều hành Linux là:",
+    "options": {
+      "A": "File System",
+      "B": "Services",
+      "C": "Kernel",
+      "D": "Shell"
+    },
+    "answer": "C",
+    "section": 2
+  },
+  {
+    "id": 102,
+    "text": "Số phiên bản kernel của Linux có gì đặc biệt",
+    "options": {
+      "A": "Số chăn là phiên bản ổn định",
+      "B": "Số lẻ là phiên bản thử nghiệm",
+      "C": "Không quan trọng",
+      "D": "Câu a và b đúng"
+    },
+    "answer": "D",
+    "section": 2
+  },
+  {
+    "id": 103,
+    "text": "Khi cài RedHat Linux ở chế độ nào thì các partion DOS bị xoá hết",
+    "options": {
+      "A": "Workstation",
+      "B": "Server",
+      "C": "Workstation and Server",
+      "D": "ễ Không cái nào đúng"
+    },
+    "answer": "B",
+    "section": 2
+  },
+  {
+    "id": 104,
+    "text": "Kiến trúc Kernel Linux là :",
+    "options": {
+      "A": "Static",
+      "B": "Microkernel",
+      "C": "Distributed",
+      "D": "Monolithic"
+    },
+    "answer": "D",
+    "section": 2
+  },
+  {
+    "id": 105,
+    "text": "Tác giả của phiên bản hệ điều hành Linux đầu tiến là ?",
+    "options": {
+      "A": "Bill Gates",
+      "B": "Linus Torvalds",
+      "C": "Alan Turing",
+      "D": "Pascal"
+    },
+    "answer": "B",
+    "section": 2
+  },
+  {
+    "id": 106,
+    "text": "Để liệt kê các file có trong thư mục hiện hành ta dùng lệnh:",
+    "options": {
+      "A": "lệnh Ìs",
+      "B": "lệnh df",
+      "C": "lệnh du",
+      "D": "lệnhcp"
+    },
+    "answer": "A",
+    "section": 2
+  },
+  {
+    "id": 107,
+    "text": "Để liệt kê đầy đủ thống tin của các file có trong thư mục hiện hành theo ta",
+    "options": {
+      "D": "ùng lệnh ls với tham sô",
+      "A": "—a",
+      "B": "-¬",
+      "C": "—X d. -n"
+    },
+    "answer": "B",
+    "section": 2
+  },
+  {
+    "id": 108,
+    "text": "Để liệt kê các file ẩn trong thư mục hiện hành theo ta dùng lệnh ls với tham SỐ",
+    "options": {
+      "A": "—b",
+      "B": "-a",
+      "C": "-—Ì",
+      "D": "-n"
+    },
+    "answer": "B",
+    "section": 2
+  },
+  {
+    "id": 109,
+    "text": "Để chuyên sang một thư mục khác ta dùng lệnh",
+    "options": {
+      "A": "Lệnh cdir",
+      "B": "Lệnh cd",
+      "C": "Lệnh mkdir",
+      "D": "Lệnh dĩr"
+    },
+    "answer": "B",
+    "section": 2
+  },
+  {
+    "id": 110,
+    "text": "Một user có username là sinhvien và home directory của anh ta là /home/sinhvien. Để trở về home dir của anh ta 1 cách nhanh nhất, anh ta phải",
+    "options": {
+      "D": "ùng lệnh",
+      "A": "cd",
+      "B": "cd /home/sinhvien",
+      "C": "cd/; cd home ; cd sinhvien d. _cd /home/sinhvien"
+    },
+    "answer": "B",
+    "section": 2
+  },
+  {
+    "id": 111,
+    "text": "Để chép một file /tmp/hello.txt vào thư mục /tmp/hello/ ta phải làm lệnh nào sau đây:",
+    "options": {
+      "A": "copy /tmp/hello.txt /tmp/hello/",
+      "B": "cp tmp/hello.txt /tmp/hello",
+      "C": "cp/tmp/hello /tmp/hello",
+      "D": "cp/tmp/hello.txt /tmp/hello"
+    },
+    "answer": "D",
+    "section": 2
+  },
+  {
+    "id": 112,
+    "text": "Để xem nội dung một tập tin văn bản trong Linux ta có thể dùng lệnh nào sau đây",
+    "options": {
+      "A": "cat",
+      "B": "less",
+      "C": "IHOF€",
+      "D": "cả 3 lệnh trên"
+    },
+    "answer": "D",
+    "section": 2
+  },
+  {
+    "id": 113,
+    "text": "Để đọc nội dung một đĩa CD trong Linux ta phải làm thế nào 2",
+    "options": {
+      "A": "Phải mount trước",
+      "B": "cject cdrom",
+      "C": "cd /mnt/cdrom",
+      "D": "ễ Không đọc được CD rom"
+    },
+    "answer": "A",
+    "section": 2
+  },
+  {
+    "id": 114,
+    "text": "Làm thế nào để đọc một đĩa mềm trong Linux",
+    "options": {
+      "A": "mount /dev/fd0",
+      "B": "mount /dev/cdrom",
+      "C": "Không cần làm gì cả, chỉ việc đọc từ ô a:",
+      "D": "cd /mnt/floppy"
+    },
+    "answer": "A",
+    "section": 2
+  },
+  {
+    "id": 115,
+    "text": "Tập tin nào chứa các mount point mặc định khi hệ thống boot lên:",
+    "options": {
+      "A": "/etc/mtab",
+      "B": "/ctc/mount.conf",
+      "C": "/etc/fstab",
+      "D": "/etc/modules.conf"
+    },
+    "answer": "C",
+    "section": 2
+  },
+  {
+    "id": 116,
+    "text": "Tập tin nào chứa thống tin các file system đang được mount",
+    "options": {
+      "A": "/etc/mntab",
+      "B": "/etc/mount.conf",
+      "C": "/etc/fstab",
+      "D": "/etc/modules.conf"
+    },
+    "answer": "B",
+    "section": 2
+  },
+  {
+    "id": 117,
+    "text": "Tập tin sau đây có thuộc tính như thế nào : -rwx--x--x hello.sh",
+    "options": {
+      "A": "077",
+      "B": "644",
+      "C": "755",
+      "D": "711"
+    },
+    "answer": "D",
+    "section": 2
+  },
+  {
+    "id": 118,
+    "text": "Để thiết lập thuộc tính cho một tập tin hello.sh với các yêu cầu sau: - Chủ sở hữu được quyền đọc ghi, nhóm được đọc, thực thi, other chỉ đọc thì ta làm lệnh nào dưới đây.",
+    "options": {
+      "A": "chmod 665",
+      "B": "chmod 654",
+      "C": "chmod 653",
+      "D": "chmod 754"
+    },
+    "answer": "B",
+    "section": 2
+  },
+  {
+    "id": 119,
+    "text": "Tập tin có dấu châm “.” Phía trước có đặc tính gì đặc biệt: Ví dụ: .hello.txt",
+    "options": {
+      "A": "Tập tinẩn",
+      "B": "Thực thi",
+      "C": "Không thấy được với lệnh ls",
+      "D": "Tập tin hệ thông"
+    },
+    "answer": "A",
+    "section": 2
+  },
+  {
+    "id": 120,
+    "text": "Lệnh nào cho phép ta tạo một account user mới trên hệ thống",
+    "options": {
+      "A": "Lệnh adduser",
+      "B": "Lệnh useradd",
+      "C": "lệnh passwd",
+      "D": "Câu a và b đúng"
+    },
+    "answer": "D",
+    "section": 2
+  },
+  {
+    "id": 121,
+    "text": "Sau khi đánh lệnh useradd sinhvien. Hỏi user có account là sinhvien có thể login vào hệ thống được chưa ?",
+    "options": {
+      "A": "Được",
+      "B": "Không"
+    },
+    "answer": "B",
+    "section": 2
+  },
+  {
+    "id": 122,
+    "text": "Tập tin /etc/passwd chứa thống tin gì của users hệ thống",
+    "options": {
+      "A": "Chứa profile của người dùng",
+      "B": "Chứa uid.gid, home directory, shell",
+      "C": "Chứa password của người dùng",
+      "D": "Chứa tập shadow của người dùng"
+    },
+    "answer": "B",
+    "section": 2
+  },
+  {
+    "id": 123,
+    "text": "Tập tin /etc/shadow chứa thống tin gì của users hệ thống",
+    "options": {
+      "A": "Chứa profile của người dùng",
+      "B": "Chứa uid,gid, home directory, shel]",
+      "C": "Chứa password của người dùng",
+      "D": "Chứa login name"
+    },
+    "answer": "C",
+    "section": 2
+  },
+  {
+    "id": 124,
+    "text": "Trong hệ thống Linux user nào có quyền cao nhất",
+    "options": {
+      "A": "User admimistrator",
+      "B": "User root",
+      "C": "ser admin",
+      "D": "User có UID=0"
+    },
+    "answer": "B",
+    "section": 2
+  },
+  {
+    "id": 125,
+    "text": "Hệ thống Linux có mấy Run Level chính",
+    "options": {
+      "A": "Có 7 Run Level",
+      "B": "Có 6 Run Level",
+      "C": "Có 5 Run Level",
+      "D": "Có 4 Run Level"
+    },
+    "answer": "A",
+    "section": 2
+  },
+  {
+    "id": 126,
+    "text": "Run level nào là shutdown và halt hệ thông",
+    "options": {
+      "A": "Level6",
+      "B": "Level0",
+      "C": "Level 3",
+      "D": "Level §"
+    },
+    "answer": "B",
+    "section": 2
+  }
+]
